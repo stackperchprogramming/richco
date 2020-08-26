@@ -3,7 +3,7 @@
 RichCo Custom theme for https://richcopropertysolutions.com - based off _s -  https://underscores.me
 ===
 
-This theme is structured as a theme file installable on WordPress. I used _S as a basis for the folder structure and approprate folders to hold static 'pages', 'classes'(php classes), and a 'workers'(javascript to php and vice versa) folder. 
+This theme is structured as a theme file installable on WordPress. I used _S as a basis for the folder structure and approprate folders to hold static 'pages', 'classes'(php classes), and a 'workers'(javascript to php and vice versa) folders. 
 
 The site is organized by functions.php which fires off the front-page.php file and loads pages based off the programmatically created menu. 
 

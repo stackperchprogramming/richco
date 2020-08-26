@@ -1,0 +1,84 @@
+/* 
+    Created on : Feb 17, 2020, 10:00:56 AM
+    Author     : RahaProgramming
+*/
+
+footer{
+    padding-bottom: 0px!important;
+}
+.ftco-footer-widget ul li a{
+    color:rgba(255, 255, 255, 0.9)!important;
+}
+.ftco-footer-widget ul li a:hover{
+    color:black!important;
+}
+hr.footer-break, footer hr{
+    height: .5px!important;
+    background: rgba(255, 255, 255, 0.9)!important;
+    background-color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    background: #70dc70;
+    color: rgba(255, 255, 255, 0.9);
+}
+.ftco-footer-widget img{
+    max-width:200px!important;
+    margin-bottom:25px;
+    margin-top:-10px;
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.9);
+}
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+}
+.ftco-footer p {
+    color: rgba(255, 255, 255, 0.9);
+}
+.ftco-footer .ftco-footer-widget ul li {
+    margin-bottom: 10px;
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.ftco-animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ftco-footer .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+}

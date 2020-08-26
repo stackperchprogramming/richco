@@ -1,0 +1,459 @@
+/*
+Copyright (C) 2020 Laptop
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : Feb 21, 2020, 8:16:09 PM
+    Author     : Laptop
+*/
+
+#career-link{
+    background-color:rgb(94,154,10);
+    border:1px solid #70dc70;
+    border-radius:1px;
+    color:#ffffff;
+    display:inline-block;
+    font-size:16px;
+    font-weight:bold;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    width:200px;
+    -webkit-text-size-adjust:none;
+    mso-hide:all;
+}
+
+
+div.overlay{
+text-align: center;
+position: relative;
+top: 250px;
+font-size: 20px;
+line-height: 3em;
+color: #70dc70;
+background-color: white;
+opacity: 0.5;
+margin: auto;
+padding:20px;
+min-width: 20%;
+position: absolute;
+}
+
+
+.esb {
+  font-family: karla;
+}
+
+.positiontest{
+width: 1000px;
+margin: auto;
+margin-top:-30px;
+}
+
+p{
+padding: 1em;
+line-height: 1.5em;
+margin-top: 1.30952381em;
+margin-bottom: 1em;
+max-width: 1000px;
+margin: auto;
+}
+
+.careercontent{
+width:1000px;
+margin: auto;
+color: #70dc70;
+border-left: 1px solid #70dc70;
+background-color: white;
+}
+
+/*.imgtest{
+height:100%;
+margin: auto;
+background-image: url("https://res.cloudinary.com/huda-tariq-design/image/upload/v1484578659/iStock-475690164_bfxqhu.jpg");
+background-size:1000px;
+position: relative;
+}*/
+
+/*second overlay*/
+.blfovrly{
+width:600px;
+margin: auto;
+font-family: Karla;
+color: black;
+background-color: white;
+}
+
+h2.blfo{
+  text-align: left;
+  font-weight: normal;
+  font-size: 2em;
+  color: #70dc70;
+  padding: .5em;
+}
+
+.testcontainer {
+width: 1000px;
+height: 500px;
+margin: auto;
+padding-top: 30px;
+
+}
+
+
+.textpostion {
+margin:auto;
+position: relative;
+background-color: white;
+}
+
+div.overlaytwo{
+font-size: 20px;
+line-height: 1em;
+color: black;
+background-color: white;
+opacity: 0.75;
+margin: auto;
+/*padding:20px;*/
+min-width: 20%;
+position: absolute;
+top: 300px;
+}
+
+.flextwo{
+ width: 100%;
+ overflow: hidden;
+}
+
+.ctc{
+width:1000px;
+margin: auto;
+font-family: Karla;
+color: #70dc70;
+background-color: white;
+}
+
+
+h2.sh{
+  text-align: left;
+  font-weight: normal;
+  font-size: 2em;
+  color: rgb(94,154,10);
+  padding: .5em;
+  margin-bottom: -10px;
+}
+h2.shc{
+  text-align: left;
+  font-weight: normal;
+  font-size: 2em;
+  padding: .5em;
+  color: rgb(94,154,10);
+  margin:20px 20px 0 0;
+}
+p.shc{
+  text-align: left;
+  font-weight: normal;
+  padding: .5em;
+  margin: 10px;
+}
+
+/*beliefs*/
+
+.beliefcon{
+width:100%;
+}
+
+.hcard{
+  color:white;
+  margin-top: 30px;
+  font-size:1.5em;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.bdiv{
+  display: inline-block;
+  float: center;
+  font-size: 14px;
+  margin: 50px 0px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+p.bcards{
+  line-height: 2em;
+  font-size: 10em;
+  color: white;
+  padding:20px; 
+  margin: 10px;
+}
+
+
+h3.bdiv{
+  fon-family: karla;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 2em;
+  color:  white;
+  padding: .5em;
+}
+
+.bcards{
+height: 250px;
+width: 240px;
+float: center;
+color: white;
+overflow: hidden;
+display: inline-block;
+background-color: #70dc70;
+border: 2px solid white;
+/*box-shadow: 0px 2px 6px 0px #f2f2f2;*/
+}
+
+/*widget*/
+
+
+.widgetcnt{
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.center{
+  background-color: white;
+}
+
+#whr_embed_hook{
+  margin-left: -50px;
+  width: 1000px;
+}
+
+
+h3.whr-title, a:hover{
+  color: blue;
+}
+
+
+h3.whr-title a:hover{
+color: rgb(94,154,10);
+}
+
+
+h3.whr-title a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Karla;
+  max-width: 175px;
+}
+.whr-item {
+    background-color: white;
+    font-size: 1em;
+}
+
+li.whr-item {
+float: left;
+margin: 6px;
+margin-bottom: 20px;
+padding:10px;
+min-height: 250px;
+width: 20%;
+list-style: none;
+background-color: white;
+border-left: .5px solid #70dc70;
+/* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+}
+
+
+h3 {
+  text-decoration: none;
+  color: #70dc70;
+  font-family: karla;
+}
+
+.whr-info{
+  margin-left: -40px;
+  margin-left: -40px;
+  line-height: 30px;
+}
+
+ul.whr-item {
+ margin-left: -30px;
+}
+
+li{
+  list-style:none;
+  font-size: 14x;
+  font-family: Karla;
+  color: #70dc70;
+  padding-left: -10px;
+}
+
+#whr_embed_hook{
+margin-left: 0px !important;
+}
+
+/*footer*/
+
+.sfooter{
+  height: 200px;
+  background-color: white;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footercontainer{
+  max-height: 200px;
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+
+a.ftspace {
+  padding: 10px;
+}
+
+
+a.ftspace {
+  padding: 10px;
+  text-decoration: none;
+  color: #70dc70;
+  margin:auto;
+  font-size: 16px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.nlogo {
+  height: 50px;
+  padding: 20px;
+}
+
+.ctbutton {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#slideshow img{
+    width:100vw;
+}
+
+.animate{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;  
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; /* Chrome and Safari */
+  -moz-backface-visibility:hidden; /* Firefox */
+  -ms-backface-visibility:hidden; /* Internet Explorer */
+}
+.maintitle{
+  color: #70dc70;
+  font-family: Ubuntu;
+  font-size: 25px;
+  display: inline-block;
+
+}
+
+.menutwo{
+ margin-top: -40px;
+}
+
+.navstyle{
+  float:right;
+  clear: both;
+  display: inline-block;
+  font-weight: medium 500;
+  margin: auto;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+a.space {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #70dc70;
+  margin:auto;
+  font-size: 16px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+a.space:hover{
+  color: #0182c4;
+
+}
+
+/*body styles*/
+
+.cpbody {
+  margin: auto;
+  width: 100%;
+  padding-top:30px;
+}
+
+#slideshow { 
+  position: relative; 
+height: 100%;
+  width: 100%;
+}
+
+#slideshow > img { 
+position: absolute; 
+}
+
+
+.containimage{
+height: 500px; 
+overflow: hidden; 
+}
+
+.containimage img { 
+width: 100%;
+}
+
+
+.imageflex{
+ width: 100%;
+ overflow: hidden;
+}
+ 
+div.overlay-car{
+text-align: center;
+position: relative;
+top: 850px;
+font-size: 20px;
+line-height: 3em;
+color: #70dc70;
+background-color: white;
+opacity: 0.5;
+margin: auto;
+padding:20px;
+min-width: 20%;
+position: absolute;
+}
+
+.slidecontainer {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+  overflow: hidden;
+}

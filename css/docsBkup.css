@@ -1,0 +1,256 @@
+/*
+Copyright (C) 2020 Laptop
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : Mar 17, 2020, 8:45:42 PM
+    Author     : Laptop
+*/
+
+#open-file{
+    border-right: 1px solid rgb(33, 37, 41)!important;
+}
+#documents{
+    width:100%;
+    padding:0!important;
+    overflow:none!important
+}
+
+#documents i.ico-sm {
+    width: 25px !important;
+    font-size: 29px;
+    margin-right: 10px;
+}
+#documents i.ico-xs, #documents i.ico-sm, #documents i.ico-md {
+    display: block;
+    float: left;
+}
+
+#documents [class^="icon-"], #documents [class*=" icon-"], #documents [class^="iconf-"], #documents [class*="iconf-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 26px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#documents .modal__title {
+    font-size: 20px !important;
+    padding: 0;
+    float: left;
+    line-height: 1.42857143;
+    margin: -5px 0 0 0;
+}
+#documents .modal__header {
+    padding: 0 0 20px 0;
+    min-height: 45px;
+    margin: 0;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    #documents .modal__content {
+        overflow-y: hidden;
+        top: 0;
+        margin-top: 0;
+    }
+}
+.du-documents, .du-footer{
+    width:100%;
+}
+.du-doc{
+    width: 15%;
+    display: flex;
+    margin: 15px 0px!important;
+    color: #6c757d!important;
+}
+.du-doc svg{
+    color: #6c757d!important;
+}
+.du-doc:hover{
+    color: #28a745!important ;
+}
+.du-doc svg:hover,.du-doc span:hover,.du-doc span:focus{
+    color: #28a745!important ;
+}
+.du-doc svg:hover span{
+    color: #28a745!important ;
+}
+.du-doc-img{
+    margin-right:5px!important;
+}
+#documents .modal__content {
+    position: relative;
+    padding: 18px;
+    background: #fff;
+    -webkit-transition: all .25s cubic-bezier(0.23,1,0.32,1);
+    transition: all .25s cubic-bezier(0.23,1,0.32,1);
+    height: 100%;
+    width: 100%;
+}
+#documents .modal__close {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+#documents .modal__body {
+    width: 100%;
+}
+#documents :after, #documents :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#documents *,#documents *:before,#documents *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#documents .row:before {
+    display: table;
+    content: " ";
+}
+#documents i.ico-md {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+}
+#documents i.ico-md {
+    display: block;
+    float: left;
+}
+#documents [class^="icon-"],#documents [class*=" icon-"],#documents [class^="iconf-"],#documents [class*="iconf-"] {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 26px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#documents input[type="button"] {
+    background-color: #68b039;
+    color: #fff;
+    padding: 10px 20px;
+}
+#documents button,#documents input,#documents select,#documents textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#documents button,#documents input,#documents optgroup,#documents select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+#documents i.ico-md {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+}
+
+#documents i.ico-md {
+    display: block;
+    float: left;
+}
+
+#documents .icon-file-image:before {
+    content: "\e90d";
+}
+#documents .btn.gray {
+    background-color: #666;
+    color: #fff !important;
+    border: 2px solid #666 !important;
+}
+
+#documents .btn.gray {
+    text-transform: uppercase;
+    border-radius: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#documents .anim250 {
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+
+#documents .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#documents .btn:not([class*='outline']) {
+    color: #fff;
+}
+#documents .greenBtn {
+    border-radius: 0;
+    border: 2px solid #78bd36;
+    color: #fff;
+    background-color: #78bd36;
+}
+
+#documents .btn.greenBtn {
+    background-color: #78bd36;
+    color: #fff !important;
+    border: 2px solid #78bd36 !important;
+}
+
+#documents .btn.greenBtn {
+    text-transform: uppercase;
+    border-radius: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#documents .btn {
+    border: 1px solid transparent;
+    color: #888;
+    background-color: transparent;
+    background-image: none;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+

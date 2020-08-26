@@ -1,0 +1,90 @@
+/*
+Copyright (C) 2020 Laptop
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : Mar 3, 2020, 10:21:38 AM
+    Author     : Laptop
+*/
+
+
+.blog-section.blog-page .single-blog-item {
+	margin-bottom: 40px;
+        overflow: hidden!important;
+        min-height: 100%!important
+}
+.blog-section.blog-page .single-blog-item:hover .sb-pic {
+	-webkit-box-shadow: 0 12px 43px rgba(44, 44, 44, 0.15);
+	box-shadow: 0 12px 43px rgba(44, 44, 44, 0.15);
+}
+.single-blog-item {
+	margin-bottom: 30px;
+}
+.single-blog-item:hover:hover .sb-pic {
+	-webkit-box-shadow: 0 12px 43px rgba(44, 44, 44, 0.15);
+	box-shadow: 0 12px 43px rgba(44, 44, 44, 0.15);
+}
+.single-blog-item:hover .sb-text h4 a {
+	text-decoration: underline;
+}
+.single-blog-item .sb-pic {
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.single-blog-item .sb-pic img {
+	min-width: 100%;
+        max-height: 250px;
+}
+.single-blog-item .sb-text {
+	padding-top: 30px;
+}
+.single-blog-item .sb-text ul {
+	margin-bottom: 8px;
+}
+.single-blog-item .sb-text ul li {
+	display: inline-block;
+	list-style: none;
+	font-size: 14px;
+	color: #707079;
+	margin-right: 25px;
+	position: relative;
+}
+.single-blog-item .sb-text ul li:after {
+	position: absolute;
+	right: -16px;
+	top: 0;
+	content: "|";
+	color: #c6c6cf;
+}
+.single-blog-item .sb-text ul li:last-child {
+	margin-right: 0;
+}
+.single-blog-item .sb-text ul li:last-child:after {
+	display: none;
+}
+.single-blog-item .sb-text ul li i {
+	color: #2cbdb8;
+}
+.single-blog-item .sb-text h4 a {
+	font-size: 22px;
+	font-weight: 600;
+	color: #19191a;
+	display: inline-block;
+	line-height: 32px;
+}
+.loadmore {
+	text-align: center;
+}

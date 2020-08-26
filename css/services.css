@@ -1,0 +1,159 @@
+/*
+Copyright (C) 2020 Rahaprogramming
+*/
+/* 
+    Created on : Feb 19, 2020, 8:38:52 PM
+    Author     : Laptop
+*/
+.intro-img-box {
+    position: relative;
+    margin-bottom: 70px;
+}
+.intro-img-box h4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    padding: 22px 42px;
+    font-weight: 700;
+    background: #fff;
+}
+img {
+    max-width: 100%;
+}
+.intro-img-box img{
+    max-width: 100%;
+}
+.intro-img-box img::before {
+  position: absolute;
+  content: "";
+  background-color: #001D38;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vw;
+  z-index: -1;
+  opacity: .7;
+}
+
+
+#accordion button {
+  font-size: 16px;
+  color: #0f2137;
+  font-weight: 500;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  #accordion button {
+    font-size: 14px;
+  }
+}
+
+#accordion .card {
+  margin-bottom: 15px;
+  border-radius: 0;
+  border-radius: 0 !important;
+  border-color: transparent!important;
+  margin-bottom: 30px;
+}
+
+#accordion .card .card-header {
+  background-color: transparent;
+  padding: 4px 14px;
+    border-color: transparent!important;
+}
+
+@media (max-width: 767px) {
+  #accordion .card .card-header {
+    padding: 4px 0;
+  }
+}
+
+#accordion .card .card-body {
+  font-size: 16px;
+  line-height: 28px;
+  color: #888888;
+  padding: 10px 30px 32px;
+}
+
+#accordion .card .collapse {
+  border-bottom: 1px solid #d7dbe3;
+}
+
+#accordion .card .collapse.show {
+  border-bottom: 1px solid transparent;
+}
+
+#accordion p{
+  position: relative;
+  z-index: 1;
+}
+
+#accordion button.btn svg.svg-inline--fa {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  height: auto;
+  color: #0f2137;
+  font-size: 14px;
+  left: -10px;
+}
+#accordion button.btn.focus, #accordion button.btn:focus {
+    box-shadow: none!important;
+}
+@media (max-width: 767px) {
+  #accordion button.btn.btn-link:after {
+    right: 10px;
+  }
+}
+
+#accordion button.btn.btn-link.collapsed:after {
+  content: "\e64b";
+  color: #0f2137;
+  font-size: 14px;
+}
+
+#accordion button i {
+  height: 36px;
+  width: 36px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  #accordion button i {
+    display: none;
+  }
+}
+
+#accordion button.btn.btn-link.collapsed i {
+  background: #f4f7f9;
+  color: #0f2137;
+}
+
+@media (max-width: 767px) {
+  #accordion button.btn.btn-link.collapsed i {
+    display: none;
+  }
+}
+
+#accordion .btn-link:hover {
+  color: #182028;
+  text-decoration: none;
+}
+
+#accordion .btn {
+  text-align: left !important;
+}
+
+

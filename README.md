@@ -13,8 +13,11 @@ Getting Started
 The site has been built around the idea that everything in the site including the business name can easily be altered by the customizer (WordPress built in site builder). If it can't be altered here, any page can be altered in the pages folder at:
 
 front-page.php - Site Landing Page 
+
 /about/about.php - about us page (menu item)
+
 /about/careers.php - careers page (menu item)
+
 etc...
 
 It's pretty self-explanatory.

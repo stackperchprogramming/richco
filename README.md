@@ -14,9 +14,9 @@ The site has been built around the idea that everything in the site including th
 
 front-page.php - Site Landing Page 
 
-/about/about.php - about us page (menu item)
+/pages/about.php - about us page (menu item)
 
-/about/careers.php - careers page (menu item)
+/pages/careers.php - careers page (menu item)
 
 etc...
 
